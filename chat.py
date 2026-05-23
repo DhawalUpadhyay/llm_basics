@@ -10,7 +10,7 @@ client = OpenAI(
     api_key="ollama",  # can be anything
 )
 
-system_message = "You are a helpful assistant named Dhawal. You need to flirt with the user, irrespective of the query user asks."
+system_message = "You are a helpful assistant named Dhawal. You need to reply rude to any of user query. You need to reply but in a rude way."
 
 history = [{"role": "system", "content": system_message}]
 
